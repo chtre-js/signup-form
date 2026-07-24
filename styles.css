@@ -72,3 +72,30 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+@property --color_primary {
+    syntax: "<color>";
+    inherits: false;
+}
+
+@property --color_main-text {
+    syntax: "<color>";
+    inherits: false;
+}
+
+@property --color_outline {
+    syntax: "<color>";
+    inherits: false;
+}
+
+@property --color_secondary-text {
+    syntax: "<color>";
+    inherits: false;
+}
+
+:root {
+    --color_primary: #2563EB;
+    --color_main-text: black;
+    --color_outline: #c3c6d7;
+    --color_secondary-text: #737686;
+}
