@@ -189,3 +189,7 @@ input:user-invalid {
 label:has(+ input:user-invalid) {
   color: red;
 }
+label::after {
+  content: " *";
+  color: red;
+}
