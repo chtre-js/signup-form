@@ -139,16 +139,32 @@ select {
 form {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 form > div {
   display: flex;
   justify-content: space-between;
-  gap: 2.5rem;
+  gap: 1.5rem;
 }
 
 form > div > div {
   display: flex;
   flex-direction: column;
+}
+
+input {
+  border: 1px solid var(--color_outline);
+  border-radius: 3px;
+  width: 15rem;
+  height: 2rem;
+}
+
+.submit-btn {
+  border: none;
+  border-radius: 3px;
+  height: 3rem;
+  background-color: var(--color_primary);
+  color: white;
+  font-size: 1.2rem;
 }
