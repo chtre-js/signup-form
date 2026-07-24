@@ -181,3 +181,11 @@ input {
   position: relative;
   top: 2rem;
 }
+
+input:user-invalid {
+  border: 1px solid red;
+}
+
+label:has(+ input:user-invalid) {
+  color: red;
+}
