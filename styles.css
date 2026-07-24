@@ -123,6 +123,7 @@ select {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  gap: 1rem;
 }
 
 .form_header {
@@ -130,16 +131,23 @@ select {
 }
 
 .form_wrap {
-  border: 1px solid black;
+  width: fit-content;
+  border: 1px solid;
 }
 
 form {
   display: flex;
   flex-direction: column;
+  gap: 2rem;
 }
 
 form > div {
   display: flex;
   justify-content: space-between;
+  gap: 2.5rem;
+}
 
+form > div > div {
+  display: flex;
+  flex-direction: column;
 }
