@@ -108,6 +108,7 @@ select {
 
 .branding-side_wrap {
     flex: 1;
+    background: center/cover no-repeat url(./assets/background-image_simonLee_unsplash.jpg);
 }
 
 .content_wrap {
@@ -132,7 +133,6 @@ select {
 
 .form_wrap {
   width: fit-content;
-  border: 1px solid;
 }
 
 form {
