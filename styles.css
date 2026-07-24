@@ -172,6 +172,11 @@ input {
   font-size: 1.2rem;
 }
 
+.submit-btn:hover {
+  background-color: #235ad1;
+  cursor: pointer;
+}
+
 .signup_wrap {
   position: relative;
   top: 2rem;
