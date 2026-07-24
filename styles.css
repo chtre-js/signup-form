@@ -111,6 +111,21 @@ select {
 .branding-side_wrap {
     flex: 1;
     background: center/cover no-repeat url(./assets/background-image_simonLee_unsplash.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+.picture-credits {
+  color: var(--color_secondary-text);
+  a {
+    color: var(--color_secondary-text);
+  }
+}
+
+.picture-credits > a:hover {
+  color: white;
 }
 
 .content_wrap {
@@ -204,3 +219,4 @@ label::after {
 .required-legend .asterisk {
   color: red;
 }
+
